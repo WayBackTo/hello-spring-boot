@@ -7,6 +7,7 @@ public class HelloController{
 
     @GetMapping("/")
     public String sayHi(){
+        System.out.println("---");
         return "Hello Spring Boot";
     }
 
